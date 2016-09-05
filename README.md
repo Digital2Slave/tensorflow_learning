@@ -19,5 +19,5 @@ Just a repo for recording code about tensorflow learning.
 
 ## reference
 
-1. [tensorflow](www.tensorflow.org/)
-2. [tensorflow_cn](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
+1. [tensorflow-en](www.tensorflow.org/)
+2. [tensorflow-cn](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
