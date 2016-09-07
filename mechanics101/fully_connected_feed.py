@@ -1,4 +1,4 @@
-#copyright 2015 The TensorFlow Authors. All Rights Reserved.
+# Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -126,6 +126,11 @@ def run_training():
   """Train MNIST for a number of steps."""
   # Get the sets of images and labels for training, validation, and
   # test on MNIST.
+  """
+  data_sets.train: 55000
+  data_sets.validation: 5000
+  data_sets.test: 10000
+  """
   data_sets = input_data.read_data_sets(FLAGS.train_dir, FLAGS.fake_data)
 
   # Tell TensorFlow that the model will be built into the default Graph.
